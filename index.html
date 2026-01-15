@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <canvas id="confetti"></canvas>
+
+    <div class="game-container">
+    	<div class="game-title">
+    <h1>Rock Paper Scissors</h1>
+    <p>
+        Develop by 
+        <a href="https://wa.me/917002443108" target="_blank">
+            Jahangir Hussain
+        </a>
+    </p>
+</div>
+        <header>
+            <div class="score-box">
+                <span>You</span>
+                <strong id="user-score">0</strong>
+            </div>
+            <div class="score-box">
+                <span>Comp</span>
+                <strong id="comp-score">0</strong>
+            </div>
+        </header>
+
+        <div class="battle-area">
+            <div class="choice-display" id="user-choice-disp">
+                <i class="ph ph-hand"></i>
+            </div>
+            <div class="vs-badge">VS</div>
+            <div class="choice-display" id="comp-choice-disp">
+                <i class="ph ph-robot"></i>
+            </div>
+        </div>
+
+        <div class="result-display" id="result-text">Make your move</div>
+
+        <div class="controls">
+            <button class="btn btn-rock" onclick="play('rock')"><i class="ph ph-hand-fist"></i></button>
+            <button class="btn btn-paper" onclick="play('paper')"><i class="ph ph-hand"></i></button>
+            <button class="btn btn-scissors" onclick="play('scissors')"><i class="ph ph-scissors"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
