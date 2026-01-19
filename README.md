@@ -32,6 +32,9 @@ The game offers smooth animations, immersive sound effects, and a clean glass-mo
 3. The computer makes its move automatically
 4. Scores update based on the result
 
+
+https://techgurubh.github.io/neon-rock-paper-seaser/
+
 ---
 
 ## 👨‍💻 Developer
